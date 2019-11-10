@@ -22,6 +22,31 @@ for (node in graph) {
 drawEdges();
 
 
+// search algorithm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Rendering Graph
@@ -84,7 +109,7 @@ function grabElement(event) {
 };
 
 
-onmousemove = function (event) {
+onmousemove  = function (event) {
   if (isGrabbed) {
     let rect = currEl.getBoundingClientRect();
     currEl.style.left = `${event.clientX  - rect.width/2}px`;
